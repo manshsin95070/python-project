@@ -1,0 +1,6 @@
+marks=(56,67,89,97,46,)
+print("the total marks is:",sum(marks))
+print("the maximum marks is:",max(marks))
+print("the minimum marks is:",min(marks))
+print("the total subject marks is:",len(marks))
+print("the average marks is:",sum(marks)/len(marks))

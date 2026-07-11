@@ -8,12 +8,25 @@ else:
     print("login denied") """
 
 
-    # question no. 2
-balence = int(input("enter your balence:"))
+# question no. 2
+"""balance = int(input("enter your balance:"))
 amount = int(input("enter your amount:"))
-if amount <= balence:
+if amount <= balance:
         print("transaction succesfully")
-        balence=balence - amount
-        print("remaining ballence is:",balence)
+        balance=balance - amount
+        print("remaining balance is:",balance)
 else:
-        print("Insufficient Balance")
+        print("Insufficient Balance") """
+
+# question no.3
+
+pin = int(input("enter your pin:"))
+if pin == 1234 :
+    print("login successfully")
+    balance = int(input("enter your balance:"))
+    if balance < 5000:
+        print("low balance:",balance)
+    else:
+        print("your balance is:",balance)
+else:
+   print("incorrect pin")
