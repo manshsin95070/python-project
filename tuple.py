@@ -1,0 +1,7 @@
+marks=(28,58,89,12,19,"rajput")
+print(marks)
+print(type(marks))
+print(marks.count(12))
+print(len(marks))
+print(marks.index(89))
+print(marks[5])
